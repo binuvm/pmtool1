@@ -1,0 +1,89 @@
+﻿@import "base.css";
+
+.container {
+    padding: 50
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+checkbox-success input:checked ~ .checkmark {
+    background-color: #4caf50 !important;
+}
+
+div {
+    display: block;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.form-control, .login-btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.login-btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.social-btn .btn {
+    border: none;
+    margin: 10px 3px 0;
+    opacity: 1;
+}
+
+    .social-btn .btn:hover {
+        opacity: 0.9;
+    }
+
+.social-btn .btn-primary {
+    background: #507cc0;
+}
+
+.social-btn .btn-danger {
+    background: #df4930;
+}
+
+.or-seperator {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }
